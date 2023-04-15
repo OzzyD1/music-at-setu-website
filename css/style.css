@@ -1,0 +1,242 @@
+body {
+	font-family: 'Inter', sans-serif;
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 1.3vw;
+}
+
+footer p {
+	font-size: 1.3em;
+	line-height: 2em;
+}
+
+footer h3 {
+	font-weight: 700;
+}
+
+img {
+	object-fit: cover;
+}
+
+.nav-link {
+	color: white;
+	font-size: 1.2em;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.bg-dark {
+  background-color: #040F0F !important;
+  opacity: 80%;
+}
+
+.hero {
+	background-image: url("../images/stefany-andrade-GbSCAAsU2Fo-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header {
+	-webkit-text-stroke: .3px white;
+	padding: 2em 0em 0em 2em;
+}
+
+#ba {
+	font-size: 4em;
+	color: rgba(4, 15, 15, 0.82);
+	font-weight: 450;
+}
+
+#title {
+	font-size: 3.2em;
+	font-weight: 700;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.section2 {
+	background-color: #040F0F;
+}
+
+.section3 {
+	background-color: #E55934;
+}
+
+.section4 {
+	background-color: #FA7921;
+}
+
+.section5 {
+	background-color: #040F0F;
+}
+
+.headerBox {
+	color: #E55934;
+	min-height: 30vh;
+}
+
+.textBlack {
+	color: #040F0F !important;
+}
+
+.headerText {
+	font-weight: 300;
+	font-size: 2.5vw;
+	letter-spacing: .25em;
+}
+
+.whiteBox {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: center; 
+  background-color: white;
+  text-align: center;
+  line-height: 3em;
+  letter-spacing: 0.15em;
+  min-height: 70vh; 
+  padding: 2em 4em  !important;
+  font-weight: 300;
+}
+
+.quotes {
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  font-size: .9vw;
+  font-weight: 450;
+}
+
+.wat {
+	font-size: .8em;
+}
+
+.whiteCol {
+	background-color: white;
+}
+
+.leaderDetails p {
+	font-size: 1.5em;
+}
+
+.contactForm, .contactDetails {
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-color: #fff;
+	padding: 20px;
+}
+
+footer div a {
+	color: black;
+	display: inherit;
+}
+
+section div div a {
+	color: black;
+	display: inherit;
+}
+
+.social-icons {
+	margin:  2em 0em !important;
+}
+
+.logo {
+	max-width: 50%;
+	margin-left: 7em !important;
+}
+
+.contact-div {
+	min-height: 70vh;
+}
+
+.btn {
+	background-color: #E55934 !important;
+}
+
+thead tr th {
+	font-size: 1.5em !important;
+}
+
+.module-tables {
+	margin-left: 1em !important;
+	padding-top: 1em;
+}
+
+.small-p {
+	font-size: 1em;
+}
+
+.section2-requirements {
+	background-color: #E55934;
+}
+
+.page-title {
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 500;
+	opacity: 80%;
+}
+
+@media (max-width: 768px) {
+	p {
+		font-size: 1.9vw;
+	}
+	
+	#ba {
+		font-size: 2em;
+	}
+	
+	.nav-link {
+		color: white;
+		font-size: 0.8em;
+	}
+	
+	.headerBox {
+		min-height: 15vh;
+	}
+	
+	.whiteBox {
+		line-height: 1.5em;
+		letter-spacing: 0.15em;
+		min-height: 70vh; 
+		padding: 0em 1em  !important;
+		font-weight: 600;
+	}
+	
+	.quotes {
+	  font-size: 1.9vw;
+	  font-weight: 450;
+	}
+	
+	footer p {
+		font-size: .8em;
+		line-height: 1em;
+	}
+
+	footer h3 {
+		font-size: .9em;
+		font-weight: 400;
+	}
+	
+	.small-p {
+		font-size: .8em;
+	}
+	
+	td, li {
+		font-size: .8em;
+	}
+	
+	th {
+		font-size: .9em;
+	}
+}
