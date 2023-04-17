@@ -187,6 +187,10 @@ thead tr th {
 	opacity: 80%;
 }
 
+.footer-links {
+	font-size: 1.3em;
+}
+
 @media (max-width: 768px) {
 	p {
 		font-size: 1.9vw;
